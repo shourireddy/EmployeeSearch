@@ -1,8 +1,5 @@
 # Employee-Search-System
 A Full Stack Web Application deploying employee search functionality using Heroku cloud platform
-# Demo
-Open this URL to run the application
-# https://employeerecordsearch.herokuapp.com/
 
 # Overview
 This is to implement a search functionality in a full stack web
@@ -39,12 +36,14 @@ Backend: Java Spring Boot
 Cloud Platform:
 Heroku
 
-Steps to execute:
-1. Create a database in the mysql with names employee.
-2. Import employee.sql file into the database
-3. Import employee folder into the spring tool suite
+# Steps to execute this application
+
+1. Create a database in the MySQL with the names "employee".
+2. Import employee.sql file into the database.
+3. Import employee folder into the spring tool suite.
 4. Run the application in the spring tool suite.
-5. Launch Index file in the Views folder for searching employees
+5. Launch Index file from the Views folder for searching employee details.
+
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
