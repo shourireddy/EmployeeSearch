@@ -18,6 +18,9 @@ The structure of this application is implemented in step-by-step process:
  Creating search API to play with user data. 
  Creating HTML views.
 
+/search: api used for searching the employees based on the names. Name of the employee is passed as a parameter.
+/searchByNumber: api used for searching employees based on the number - Mobile number or work number or home number accpets as a parameter.
+
 The Employee Record Search has two ways to search their employee info details.
 1. Searching based on the first name or last name.
 2. Searching based on the work, office or mobile phone number.
