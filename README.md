@@ -1,5 +1,5 @@
 # Employee-Search-System
-A Full Stack Web Application deploying employee search functionality using Heroku cloud platform
+A Full Stack Web Application deploying employee search functionality
 
 # Overview
 This is to implement a search functionality in a full stack web
