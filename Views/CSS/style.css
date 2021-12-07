@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: #e4eefa;
+}
+h1{
+  text-align: center;
+  color: #5078ef;
+}
+th {
+  background-color: #277b92;
+}
+h2 {
+  text-align: center;
+}
+
+select {
+  margin-left: 10%;
+}
