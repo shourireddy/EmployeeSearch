@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 07, 2021 at 03:14 PM
+-- Generation Time: Dec 07, 2021 at 08:28 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -63,9 +63,9 @@ CREATE TABLE `phonenumbers` (
 --
 
 INSERT INTO `phonenumbers` (`number`, `id`, `work`, `home`) VALUES
-('7799883925', 1, '6281817092', '7799883925'),
-('123467890', 2, '7418529630', '0321145698'),
-('0147852963', 3, '0369852741', '7894561230');
+('7799883925', 1, '6281817092', '7418529630'),
+('8634579324', 2, '7418529630', '7894561230'),
+('7864597124', 3, '6457234561', '7894561230');
 
 --
 -- Indexes for dumped tables
