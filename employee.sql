@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 06, 2021 at 08:57 PM
+-- Generation Time: Dec 07, 2021 at 03:14 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -32,15 +32,18 @@ CREATE TABLE `employees` (
   `firstname` varchar(20) NOT NULL,
   `lastname` varchar(20) NOT NULL,
   `address` varchar(40) NOT NULL,
-  `joindate` date NOT NULL
+  `joindate` date NOT NULL,
+  `salary` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `employees`
 --
 
-INSERT INTO `employees` (`id`, `firstname`, `lastname`, `address`, `joindate`) VALUES
-(1, 'sri', 'meda', 'hyd', '2021-12-08');
+INSERT INTO `employees` (`id`, `firstname`, `lastname`, `address`, `joindate`, `salary`) VALUES
+(1, 'Ronaldo', 'Jk', '512, jersey', '2021-12-08', '50000'),
+(2, 'John', 'Doe', 'Dayton', '2021-12-23', '25000'),
+(3, 'Christ', 'Dio', '61-2, Jerysey', '2021-12-12', '100000');
 
 -- --------------------------------------------------------
 
@@ -60,7 +63,9 @@ CREATE TABLE `phonenumbers` (
 --
 
 INSERT INTO `phonenumbers` (`number`, `id`, `work`, `home`) VALUES
-('7799883925', 1, '6281817092', '7799883925');
+('7799883925', 1, '6281817092', '7799883925'),
+('123467890', 2, '7418529630', '0321145698'),
+('0147852963', 3, '0369852741', '7894561230');
 
 --
 -- Indexes for dumped tables
@@ -86,7 +91,7 @@ ALTER TABLE `phonenumbers`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

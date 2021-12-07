@@ -37,6 +37,8 @@ public class Controller {
 				String phone = (String) row.get("number");
 				String work = (String) row.get("work");
 				String home = (String) row.get("home");
+				String salary = (String) row.get("salary");
+			
 				
 				obj.setFname(fName);
 				obj.setLname(lastname);
@@ -44,7 +46,8 @@ public class Controller {
 				obj.setPhone(phone);
 				obj.setHome(home);
 				obj.setWork(work);
-
+				obj.setSalary(salary);
+				
 				employees_list.add(obj);
 			}
 			return new ResponseEntity<List<Employee>>(employees_list, HttpStatus.OK);
@@ -75,6 +78,7 @@ public class Controller {
 				String phone1 = (String) row.get("number");
 				String work = (String) row.get("work");
 				String home = (String) row.get("home");
+				String salary = (String) row.get("salary");
 
 				obj.setFname(fName);
 				obj.setLname(lastname);
@@ -82,6 +86,7 @@ public class Controller {
 				obj.setPhone(phone1);
 				obj.setHome(home);
 				obj.setWork(work);
+				obj.setSalary(salary);
 				
 				employees_list.add(obj);
 			}

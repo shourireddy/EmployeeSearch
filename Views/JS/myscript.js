@@ -31,6 +31,7 @@ $("#employee").css("visibility", "visible");
                 { "data": "phone" },
                 { "data": "work" },
                 { "data": "home" },
+                { "data": "salary" },
             ]
         });
 }
