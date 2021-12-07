@@ -39,6 +39,12 @@ Backend: Java Spring Boot
 Cloud Platform:
 Heroku
 
+Steps to execute:
+1. Create a database in the mysql with names employee.
+2. Import employee.sql file into the database
+3. Import employee folder into the spring tool suite
+4. Run the application in the spring tool suite.
+5. Launch Index file in the Views folder for searching employees
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
