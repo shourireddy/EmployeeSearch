@@ -8,6 +8,15 @@ public class Employee {
 	private String phone;
 	private String work;
 	private String home;
+	private String salary;
+
+	public String getSalary() {
+		return salary;
+	}
+
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
 
 	public String getWork() {
 		return work;
@@ -57,11 +66,17 @@ public class Employee {
 		Lname = lname;
 	}
 
-	public Employee(String fname, String address, String lname) {
+	
+
+	public Employee(String fname, String address, String lname, String phone, String work, String home, String salary) {
 		super();
 		Fname = fname;
 		this.address = address;
 		Lname = lname;
+		this.phone = phone;
+		this.work = work;
+		this.home = home;
+		this.salary = salary;
 	}
 
 	public Employee() {
