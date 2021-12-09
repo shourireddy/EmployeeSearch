@@ -2,7 +2,7 @@
 Employee search web application deployed on Heroku Cloud platform
 
 # Demo
-Open this URL terminal to run this application in Heroku Cloud platform
+Open this link to perform employee search queries
 
 https://employeerecordsearch.herokuapp.com/
 
@@ -44,13 +44,7 @@ Backend: Java Spring Boot
 Cloud Platform:
 Heroku
 
-# Steps to execute this application
 
-1. Create a database in the MySQL with the names "employee".
-2. Import employee.sql file into the database.
-3. Import employee folder into the spring tool suite.
-4. Run the application in the spring tool suite.
-5. Launch Index file from the Views folder for searching employee details.
 
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
