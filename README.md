@@ -1,5 +1,10 @@
 # Employee-Search-System
-A Full Stack Web Application deploying employee search functionality
+Employee search web application deployed on Heroku Cloud platform
+
+# Demo
+Open this URL terminal to run this application in Heroku Cloud platform
+
+https://employeerecordsearch.herokuapp.com/
 
 # Overview
 This is to implement a search functionality in a full stack web
